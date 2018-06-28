@@ -14,6 +14,29 @@
 		CF09901620E541ED00A4B3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF09901420E541ED00A4B3E6 /* LaunchScreen.storyboard */; };
 		CF09901920E541ED00A4B3E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09901820E541ED00A4B3E6 /* main.m */; };
 		CF09902320E541ED00A4B3E6 /* SPSmartTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09902220E541ED00A4B3E6 /* SPSmartTableUITests.m */; };
+		CF09903620E5421800A4B3E6 /* SPSmartTableFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09903420E5421700A4B3E6 /* SPSmartTableFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09903920E5421800A4B3E6 /* SPSmartTableFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF09903220E5421700A4B3E6 /* SPSmartTableFramework.framework */; };
+		CF09903A20E5421800A4B3E6 /* SPSmartTableFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF09903220E5421700A4B3E6 /* SPSmartTableFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF09905120E5426C00A4B3E6 /* SPSmartTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904020E5426C00A4B3E6 /* SPSmartTable.m */; };
+		CF09905220E5426C00A4B3E6 /* PropertyForKeyPathRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF09904220E5426C00A4B3E6 /* PropertyForKeyPathRules.plist */; };
+		CF09905320E5426C00A4B3E6 /* NSObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904420E5426C00A4B3E6 /* NSObject+Helper.m */; };
+		CF09905420E5426C00A4B3E6 /* SPSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904720E5426C00A4B3E6 /* SPSmartTableViewCell.m */; };
+		CF09905520E5426C00A4B3E6 /* SPSmartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904A20E5426C00A4B3E6 /* SPSmartConfig.m */; };
+		CF09905620E5426C00A4B3E6 /* SPSmartCellRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904E20E5426C00A4B3E6 /* SPSmartCellRowModel.m */; };
+		CF09905720E5426C00A4B3E6 /* SPSmartCellSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904F20E5426C00A4B3E6 /* SPSmartCellSectionModel.m */; };
+		CF09905920E542A700A4B3E6 /* SPSmartTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09904520E5426C00A4B3E6 /* SPSmartTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09905A20E542A700A4B3E6 /* SPSmartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09904B20E5426C00A4B3E6 /* SPSmartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09905B20E542A700A4B3E6 /* SPSmartCellSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09904D20E5426C00A4B3E6 /* SPSmartCellSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09905C20E542A700A4B3E6 /* SPSmartCellRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09905020E5426C00A4B3E6 /* SPSmartCellRowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09905D20E542A700A4B3E6 /* NSObject+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09904320E5426C00A4B3E6 /* NSObject+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09905E20E542A700A4B3E6 /* SPSmartTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CF09904820E5426C00A4B3E6 /* SPSmartTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF09905F20E542C100A4B3E6 /* SPSmartTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904020E5426C00A4B3E6 /* SPSmartTable.m */; };
+		CF09906020E542C100A4B3E6 /* SPSmartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904A20E5426C00A4B3E6 /* SPSmartConfig.m */; };
+		CF09906120E542C100A4B3E6 /* SPSmartCellRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904E20E5426C00A4B3E6 /* SPSmartCellRowModel.m */; };
+		CF09906220E542C100A4B3E6 /* SPSmartCellSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904F20E5426C00A4B3E6 /* SPSmartCellSectionModel.m */; };
+		CF09906320E542C100A4B3E6 /* NSObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904420E5426C00A4B3E6 /* NSObject+Helper.m */; };
+		CF09906420E542C100A4B3E6 /* SPSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF09904720E5426C00A4B3E6 /* SPSmartTableViewCell.m */; };
+		CF09906520E542D100A4B3E6 /* PropertyForKeyPathRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF09904220E5426C00A4B3E6 /* PropertyForKeyPathRules.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +47,28 @@
 			remoteGlobalIDString = CF09900520E541EB00A4B3E6;
 			remoteInfo = SPSmartTable;
 		};
+		CF09903720E5421800A4B3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF098FFE20E541EB00A4B3E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF09903120E5421700A4B3E6;
+			remoteInfo = SPSmartTableFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF09903E20E5421800A4B3E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF09903A20E5421800A4B3E6 /* SPSmartTableFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CF09900620E541EB00A4B3E6 /* SPSmartTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPSmartTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +84,22 @@
 		CF09901E20E541ED00A4B3E6 /* SPSmartTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPSmartTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF09902220E541ED00A4B3E6 /* SPSmartTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPSmartTableUITests.m; sourceTree = "<group>"; };
 		CF09902420E541ED00A4B3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09903220E5421700A4B3E6 /* SPSmartTableFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPSmartTableFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF09903420E5421700A4B3E6 /* SPSmartTableFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPSmartTableFramework.h; sourceTree = "<group>"; };
+		CF09903520E5421800A4B3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF09904020E5426C00A4B3E6 /* SPSmartTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSmartTable.m; sourceTree = "<group>"; };
+		CF09904220E5426C00A4B3E6 /* PropertyForKeyPathRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyForKeyPathRules.plist; sourceTree = "<group>"; };
+		CF09904320E5426C00A4B3E6 /* NSObject+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Helper.h"; sourceTree = "<group>"; };
+		CF09904420E5426C00A4B3E6 /* NSObject+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Helper.m"; sourceTree = "<group>"; };
+		CF09904520E5426C00A4B3E6 /* SPSmartTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSmartTable.h; sourceTree = "<group>"; };
+		CF09904720E5426C00A4B3E6 /* SPSmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSmartTableViewCell.m; sourceTree = "<group>"; };
+		CF09904820E5426C00A4B3E6 /* SPSmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSmartTableViewCell.h; sourceTree = "<group>"; };
+		CF09904A20E5426C00A4B3E6 /* SPSmartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSmartConfig.m; sourceTree = "<group>"; };
+		CF09904B20E5426C00A4B3E6 /* SPSmartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSmartConfig.h; sourceTree = "<group>"; };
+		CF09904D20E5426C00A4B3E6 /* SPSmartCellSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSmartCellSectionModel.h; sourceTree = "<group>"; };
+		CF09904E20E5426C00A4B3E6 /* SPSmartCellRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSmartCellRowModel.m; sourceTree = "<group>"; };
+		CF09904F20E5426C00A4B3E6 /* SPSmartCellSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSmartCellSectionModel.m; sourceTree = "<group>"; };
+		CF09905020E5426C00A4B3E6 /* SPSmartCellRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSmartCellRowModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +107,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF09903920E5421800A4B3E6 /* SPSmartTableFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CF09901B20E541ED00A4B3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF09902E20E5421700A4B3E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,6 +133,7 @@
 			children = (
 				CF09900820E541EB00A4B3E6 /* SPSmartTable */,
 				CF09902120E541ED00A4B3E6 /* SPSmartTableUITests */,
+				CF09903320E5421700A4B3E6 /* SPSmartTableFramework */,
 				CF09900720E541EB00A4B3E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +143,7 @@
 			children = (
 				CF09900620E541EB00A4B3E6 /* SPSmartTable.app */,
 				CF09901E20E541ED00A4B3E6 /* SPSmartTableUITests.xctest */,
+				CF09903220E5421700A4B3E6 /* SPSmartTableFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +151,7 @@
 		CF09900820E541EB00A4B3E6 /* SPSmartTable */ = {
 			isa = PBXGroup;
 			children = (
+				CF09903F20E5424B00A4B3E6 /* SmartTable */,
 				CF09900920E541EB00A4B3E6 /* AppDelegate.h */,
 				CF09900A20E541EB00A4B3E6 /* AppDelegate.m */,
 				CF09900C20E541EB00A4B3E6 /* ViewController.h */,
@@ -103,7 +174,93 @@
 			path = SPSmartTableUITests;
 			sourceTree = "<group>";
 		};
+		CF09903320E5421700A4B3E6 /* SPSmartTableFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CF09903420E5421700A4B3E6 /* SPSmartTableFramework.h */,
+				CF09903520E5421800A4B3E6 /* Info.plist */,
+			);
+			path = SPSmartTableFramework;
+			sourceTree = "<group>";
+		};
+		CF09903F20E5424B00A4B3E6 /* SmartTable */ = {
+			isa = PBXGroup;
+			children = (
+				CF09905820E5427E00A4B3E6 /* Table */,
+				CF09904920E5426C00A4B3E6 /* Configs */,
+				CF09904C20E5426C00A4B3E6 /* Model */,
+				CF09904120E5426C00A4B3E6 /* Tools */,
+				CF09904620E5426C00A4B3E6 /* View */,
+			);
+			path = SmartTable;
+			sourceTree = "<group>";
+		};
+		CF09904120E5426C00A4B3E6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CF09904220E5426C00A4B3E6 /* PropertyForKeyPathRules.plist */,
+				CF09904320E5426C00A4B3E6 /* NSObject+Helper.h */,
+				CF09904420E5426C00A4B3E6 /* NSObject+Helper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CF09904620E5426C00A4B3E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF09904720E5426C00A4B3E6 /* SPSmartTableViewCell.m */,
+				CF09904820E5426C00A4B3E6 /* SPSmartTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF09904920E5426C00A4B3E6 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				CF09904A20E5426C00A4B3E6 /* SPSmartConfig.m */,
+				CF09904B20E5426C00A4B3E6 /* SPSmartConfig.h */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		CF09904C20E5426C00A4B3E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF09904D20E5426C00A4B3E6 /* SPSmartCellSectionModel.h */,
+				CF09904E20E5426C00A4B3E6 /* SPSmartCellRowModel.m */,
+				CF09904F20E5426C00A4B3E6 /* SPSmartCellSectionModel.m */,
+				CF09905020E5426C00A4B3E6 /* SPSmartCellRowModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF09905820E5427E00A4B3E6 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				CF09904520E5426C00A4B3E6 /* SPSmartTable.h */,
+				CF09904020E5426C00A4B3E6 /* SPSmartTable.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF09902F20E5421700A4B3E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09903620E5421800A4B3E6 /* SPSmartTableFramework.h in Headers */,
+				CF09905920E542A700A4B3E6 /* SPSmartTable.h in Headers */,
+				CF09905A20E542A700A4B3E6 /* SPSmartConfig.h in Headers */,
+				CF09905B20E542A700A4B3E6 /* SPSmartCellSectionModel.h in Headers */,
+				CF09905C20E542A700A4B3E6 /* SPSmartCellRowModel.h in Headers */,
+				CF09905D20E542A700A4B3E6 /* NSObject+Helper.h in Headers */,
+				CF09905E20E542A700A4B3E6 /* SPSmartTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		CF09900520E541EB00A4B3E6 /* SPSmartTable */ = {
@@ -113,10 +270,12 @@
 				CF09900220E541EB00A4B3E6 /* Sources */,
 				CF09900320E541EB00A4B3E6 /* Frameworks */,
 				CF09900420E541EB00A4B3E6 /* Resources */,
+				CF09903E20E5421800A4B3E6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CF09903820E5421800A4B3E6 /* PBXTargetDependency */,
 			);
 			name = SPSmartTable;
 			productName = SPSmartTable;
@@ -141,6 +300,24 @@
 			productReference = CF09901E20E541ED00A4B3E6 /* SPSmartTableUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CF09903120E5421700A4B3E6 /* SPSmartTableFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF09903B20E5421800A4B3E6 /* Build configuration list for PBXNativeTarget "SPSmartTableFramework" */;
+			buildPhases = (
+				CF09902D20E5421700A4B3E6 /* Sources */,
+				CF09902E20E5421700A4B3E6 /* Frameworks */,
+				CF09902F20E5421700A4B3E6 /* Headers */,
+				CF09903020E5421700A4B3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPSmartTableFramework;
+			productName = SPSmartTableFramework;
+			productReference = CF09903220E5421700A4B3E6 /* SPSmartTableFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +333,9 @@
 					CF09901D20E541ED00A4B3E6 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = CF09900520E541EB00A4B3E6;
+					};
+					CF09903120E5421700A4B3E6 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -174,6 +354,7 @@
 			targets = (
 				CF09900520E541EB00A4B3E6 /* SPSmartTable */,
 				CF09901D20E541ED00A4B3E6 /* SPSmartTableUITests */,
+				CF09903120E5421700A4B3E6 /* SPSmartTableFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF09905220E5426C00A4B3E6 /* PropertyForKeyPathRules.plist in Resources */,
 				CF09901620E541ED00A4B3E6 /* LaunchScreen.storyboard in Resources */,
 				CF09901320E541ED00A4B3E6 /* Assets.xcassets in Resources */,
 				CF09901120E541EB00A4B3E6 /* Main.storyboard in Resources */,
@@ -196,6 +378,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF09903020E5421700A4B3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09906520E542D100A4B3E6 /* PropertyForKeyPathRules.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -204,8 +394,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF09900E20E541EB00A4B3E6 /* ViewController.m in Sources */,
+				CF09905720E5426C00A4B3E6 /* SPSmartCellSectionModel.m in Sources */,
+				CF09905320E5426C00A4B3E6 /* NSObject+Helper.m in Sources */,
+				CF09905520E5426C00A4B3E6 /* SPSmartConfig.m in Sources */,
+				CF09905620E5426C00A4B3E6 /* SPSmartCellRowModel.m in Sources */,
+				CF09905420E5426C00A4B3E6 /* SPSmartTableViewCell.m in Sources */,
 				CF09901920E541ED00A4B3E6 /* main.m in Sources */,
 				CF09900B20E541EB00A4B3E6 /* AppDelegate.m in Sources */,
+				CF09905120E5426C00A4B3E6 /* SPSmartTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +413,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF09902D20E5421700A4B3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF09905F20E542C100A4B3E6 /* SPSmartTable.m in Sources */,
+				CF09906020E542C100A4B3E6 /* SPSmartConfig.m in Sources */,
+				CF09906120E542C100A4B3E6 /* SPSmartCellRowModel.m in Sources */,
+				CF09906220E542C100A4B3E6 /* SPSmartCellSectionModel.m in Sources */,
+				CF09906320E542C100A4B3E6 /* NSObject+Helper.m in Sources */,
+				CF09906420E542C100A4B3E6 /* SPSmartTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,6 +433,11 @@
 			isa = PBXTargetDependency;
 			target = CF09900520E541EB00A4B3E6 /* SPSmartTable */;
 			targetProxy = CF09901F20E541ED00A4B3E6 /* PBXContainerItemProxy */;
+		};
+		CF09903820E5421800A4B3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF09903120E5421700A4B3E6 /* SPSmartTableFramework */;
+			targetProxy = CF09903720E5421800A4B3E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,6 +641,64 @@
 			};
 			name = Release;
 		};
+		CF09903C20E5421800A4B3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J87CN7373S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SPSmartTableFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sp.SPSmartTableFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF09903D20E5421800A4B3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J87CN7373S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SPSmartTableFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sp.SPSmartTableFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,6 +725,15 @@
 			buildConfigurations = (
 				CF09902B20E541ED00A4B3E6 /* Debug */,
 				CF09902C20E541ED00A4B3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF09903B20E5421800A4B3E6 /* Build configuration list for PBXNativeTarget "SPSmartTableFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF09903C20E5421800A4B3E6 /* Debug */,
+				CF09903D20E5421800A4B3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

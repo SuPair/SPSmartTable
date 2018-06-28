@@ -1,0 +1,6 @@
+framework module SPSmartTableFramework {
+  umbrella header "SPSmartTableFramework.h"
+
+  export *
+  module * { export * }
+}
